@@ -11,7 +11,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:scaleType="centerCrop"
-        android:scr="@drawable/a" />
+        android:src="@drawable/a" />
 
     <TextView
         android:id="@+id/textViewJudul"
@@ -36,7 +36,7 @@
         android:layout_below="@+id/textViewJudul"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="Deskripsi"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Deskripsi" />
 
 </RelativeLayout>
